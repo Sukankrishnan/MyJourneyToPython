@@ -2,8 +2,12 @@ x=5
 y=8
 
 #using + operator
-print(x+y)
+print("Using + operator:" , x+y)
 
 #using sum() function - useful when adding multiple numbers
-print(sum([x,y]))
+print("Using sum function:", sum([x,y]))
 
+#input from the user
+a=int(input("Enter first number"))
+b=int(input("Enter second number"))
+print("Sum is ",a+b)
