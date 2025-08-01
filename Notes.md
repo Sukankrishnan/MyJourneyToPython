@@ -36,6 +36,7 @@ Not every statement the user writes is valid — the interpreter or compiler che
     
 
 **✅ Improved Version of Your Explanation:**
+
 In programming, syntax is a set of rules that defines how code must be written. Whatever the user writes in a programming language is considered a statement.
 
 However, the interpreter or compiler does not always accept the statements written by the user. It checks whether the statement follows the syntax rules of the language.
