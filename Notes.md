@@ -3,9 +3,9 @@
 Syntax refers to the set of rules that define the correct structure of statements in a programming language. Just like grammar rules in a spoken language, syntax rules determine how code should be written so the compiler or interpreter can understand and execute it.
 
 
-**When is a Statement considered Invalid?**
+**❌ When is a Statement considered Invalid?**
 
-❌ A statement becomes invalid if it violates the syntax rules of the programming language. For example:
+A statement becomes invalid if it violates the syntax rules of the programming language. For example:
 
     Missing semicolons (in C/C++/Java)
     
