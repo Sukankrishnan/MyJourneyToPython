@@ -22,6 +22,7 @@ Syntax: The rule that defines how that statement must be written.
 Not every statement the user writes is valid — the interpreter or compiler checks each one against the language's syntax rules.
 
 **⚠️  When Are Syntax Errors Reported?**
+
 Compiled Languages (like C, Java):
 
     Syntax errors are usually caught at compile time.
