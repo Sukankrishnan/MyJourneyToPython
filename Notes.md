@@ -26,11 +26,11 @@ Not every statement the user writes is valid — the interpreter or compiler che
 
 **⚠️  When Are Syntax Errors Reported?**
 
-Compiled Languages (like C, Java):
+> Compiled Languages (like C, Java):
 
     Syntax errors are usually caught at compile time.
 
-Interpreted Languages (like Python, JavaScript):
+> Interpreted Languages (like Python, JavaScript):
 
     Syntax errors are often reported during runtime — unless the code is parsed beforehand.
     
