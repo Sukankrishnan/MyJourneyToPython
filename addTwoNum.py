@@ -11,3 +11,11 @@ print("Using sum function:", sum([x,y]))
 a=int(input("Enter first number"))
 b=int(input("Enter second number"))
 print("Sum is ",a+b)
+
+
+v=2
+print(v)
+
+v=2; print(v)
+
+a=1b=1
