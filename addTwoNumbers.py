@@ -1,4 +1,5 @@
-#Adding two numbers assigned to the variables
+#Program to add two numbers
+#Values assigned to the variables
 numberOne=5
 numberTwo=8
 
