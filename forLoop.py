@@ -2,12 +2,13 @@
 #collection includes tuples, lists, strings and dictionaries
 #for variable in iterable: <body>
 
+#print each item from the list
 programmingLanguages=["java", "javascript", "python", "C#", "C", "C++"]
 print("The languages in the collection:  ")
 for languages in programmingLanguages:
     print(languages)
 
-#print each character
+#print each character in string
 print("\n\nPrint each character")
 inputValue="hello"
 
@@ -20,6 +21,4 @@ total=0
 for number in numbers:
     if number%2==0:
         total=total+number
-
-
 print("Total is ",total)
