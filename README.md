@@ -1,5 +1,7 @@
 # PracticePython
-Personal collection of notes, code examples and exercises for learning Python.
+Personal collection of notes, code examples, and exercises for learning Python.
+
+IDLE (Integrated Development and Learning Environment) is the default IDE provided by Python.
 
 Function: A Block of code that runs when it is called
 
