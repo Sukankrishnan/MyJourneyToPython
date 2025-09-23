@@ -8,12 +8,27 @@ print("The languages in the collection:  ")
 for languages in programmingLanguages:
     print(languages)
 
+#The languages in the collection:
+#java
+#javascript
+#python
+#C#
+#C
+#C++
+
 #print each character in string
 print("\n\nPrint each character")
 inputValue="hello"
 
 for character in inputValue:
     print(character)
+
+#Print each character
+#h
+#e
+#l
+#l
+#o
 
 #sum of even numbers
 numbers=[1,2,2,4,4,5,6,24,45]
@@ -22,3 +37,5 @@ for number in numbers:
     if number%2==0:
         total=total+number
 print("Total is ",total)
+
+#Total is  42

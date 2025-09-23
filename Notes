@@ -1,0 +1,25 @@
+START
+
+PROMPT user: "Enter the numbers with space to find prime numbers"
+READ input_line
+SPLIT input_line by spaces into a list_of_numbers
+CONVERT each item in list_of_numbers to integer
+
+FOR each number in list_of_numbers DO
+    IF number < 2 THEN
+        PRINT number, "is not a prime number"
+    ELSE
+        FOR j FROM 2 TO number - 1 DO
+            IF number MOD j = 0 THEN
+                PRINT number, "is not a prime number"
+                BREAK inner loop
+            ENDIF
+        ENDFOR
+
+        IF found_divisor = FALSE THEN
+            PRINT number, "is a prime number"
+        ENDIF
+    ENDIF
+ENDFOR
+
+END
