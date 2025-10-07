@@ -39,3 +39,11 @@ for number in numbers:
 print("Total is ",total)
 
 #Total is  42
+
+a=range(10)
+print(a)
+for b in a:
+    print(b)
+c=range(5,10,2)
+for i in c:
+    print(i)
