@@ -1,5 +1,5 @@
-numberOne=5
-numberTwo=10
+numberOne=5_0
+numberTwo=1_0_8
 
 def add(numberOne, numberTwo):
     return numberOne+numberTwo
