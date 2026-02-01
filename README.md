@@ -13,3 +13,9 @@ Function: A Block of code that runs when it is called
       #statements
   
     funcName(p1,p2)
+
+    Resources
+
+    https://www.w3schools.com/python/default.asp
+
+    https://www.python.org/
