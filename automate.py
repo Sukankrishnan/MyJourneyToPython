@@ -9,7 +9,8 @@ if inputValue.isdigit():
 else:
     print("Enter a number next time!")
     quit()
-random_number=random.randint(0,inputValue)
+#random.randrange(1,100) #generate random number between 1 and 99
+random_number=random.randint(0,inputValue) #generate random number between 0 and inputValue
 guess=0
 while True:
     guess+=1

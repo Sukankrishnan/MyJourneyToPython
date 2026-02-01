@@ -19,3 +19,8 @@ float_one= float(input("Enter first number"))
 float_two=float(input("Enter second number"))
 sum = float_one + float_two
 print("Sum of two inputs is " + str(sum))
+
+#str, int, float, complex
+#list, tuple, range
+#dict, set, frozenset
+#bool, bytes, bytearray, memoryview, NoneType

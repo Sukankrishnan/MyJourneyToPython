@@ -6,3 +6,5 @@ num of "two numbers" is 10
 To print on the same line, use end parameter (Output is "Hello World")
 print("Hello", end=" ")
 print("World")
+
+To print type of variable print(type(var))
