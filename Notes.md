@@ -9,4 +9,7 @@ print("World")
 
 To print type of variable print(type(var))
 
-c=range(5,10,2)
+c=range(5,10,2) #start, stop, step
+
+f-string method is to format strings
+    text=f"I am {name} and {age} old"
