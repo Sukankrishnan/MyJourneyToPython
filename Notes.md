@@ -8,3 +8,5 @@ print("Hello", end=" ")
 print("World")
 
 To print type of variable print(type(var))
+
+c=range(5,10,2)

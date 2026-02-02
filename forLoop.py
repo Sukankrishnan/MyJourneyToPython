@@ -44,6 +44,8 @@ a=range(10)
 print(a)
 for b in a:
     print(b)
-c=range(5,10,2)
+
+c=range(5,10,2) #start, stop, step. It starts from 5 to 10 but not including 10, incrementing by 2
 for i in c:
     print(i)
+print("The output in the list:",list(c)) #converts range to list
