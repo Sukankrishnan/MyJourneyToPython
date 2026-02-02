@@ -1,3 +1,4 @@
+
 #use 3 single or doublequotes for multi line strings
 multiLineString="""This is a multi line string.
 It can span multiple lines.
@@ -16,3 +17,9 @@ print("Sliced string from beginning to index 15:", inputString[:16])
 print("Sliced entire string:", inputString[:])
 #negative indexing - starts from the end
 print("Sliced string using negative indexing from -10 to -1:", inputString[-10:-1])
+
+#F-String was introduced in Python 3.6, and is now the preferred way of formatting strings.
+name="Kevin"
+age=25
+text=f"{name}'s age is {age} years."
+print(text)
